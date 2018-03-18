@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman - Week Four - A JavaScript Adventure</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i|Oswald:700" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HANGMAN</h1>
+            <h3 id="startGame"></h3>
+        </header>
+        <div class="playingArea">
+            <div class="hiddenWord"><p id="pHiddenWord">_ _ _ _ _ _ _ _ _ _ _ _ _</p>
+                </div>
+            <div class="scoreBoard">
+                <p id="pLettersMissed"></p>
+                <p id="pRemainingGuesses"></p>
+                <p id="pWins"></p>
+                <p id="pLosses"></p>
+
+
+            </div>
+        
+            
+        
+        </div>
+        
+
+    </div>
+
+
+    <script src="javascript/game.js"></script>
+</body>
+</html>
