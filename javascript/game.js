@@ -1,3 +1,8 @@
+//Both Bootstrap and Vanilla CSS Portfolios have been updated.
+//Find both links here:
+//https://tlorenzo.github.io/Bootstrap-Portfolio/portfolio.html
+//https://tlorenzo.github.io/Responsive-Portfolio/Basic-Portfolio/portfolio.html
+
 //This is our array storing all of our alphabet letters as strings.
 var alphabetSoup = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
  //These are our variables that are global in scope. 
